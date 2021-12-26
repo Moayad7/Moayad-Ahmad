@@ -39,10 +39,11 @@ a{
     color: #EA466B;
     border: 1px solid #EA466B;
     z-index: 100;
+    transition: all 0.3s ease-out 0s;
   }
 
   #btn-back-to-top:hover{
-      background-color: var(--navy-blue);
+      background-color: transparent;
   }
 
 
