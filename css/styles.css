@@ -112,12 +112,11 @@ a{
     .btn{
         text-align: center;
         margin: auto;
-        position: relative;
     }
-    .nav-link:hover {
+    .navbar-nav .nav-item .nav-link:hover {
         background: #27255F;
-    }
-    
+        color: #ffffff;
+    } 
 }
 
 .slider{
@@ -177,4 +176,11 @@ h1{
 }
 .carousel:hover .black{
     transform: scale(1);
+}
+
+@media screen and (max-width: 991px) {
+    .black{
+        background-color: #00000099;
+        transform: scale(1);
+    }
 }
