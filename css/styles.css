@@ -245,6 +245,7 @@ h1{
     .black1{
         background-color: #000000ee;
         transform: scale(1);
+        font-size: 28px;
     }
     
 }
