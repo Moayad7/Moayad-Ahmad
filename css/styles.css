@@ -263,3 +263,22 @@ h1{
     
 }
 
+footer{
+    height: 25vh;
+    background-color: #27255F99;
+}
+
+.footer-content{
+    height: 25vh;
+}
+.footer-content .icons a{
+    color: #ffffff;
+    font-size: 30px;
+}
+.footer-content .icons :hover{
+    color: #EA466B;
+}
+
+.label{
+    font-size: 12px;
+}
