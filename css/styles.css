@@ -154,13 +154,10 @@ h1{
     color: #EA466B;
 }
 
-.about a {
+.about p {
     color: black;
 }
-.about a:hover {
-    color: #EA466B;
-}
-.about a img{
+.about p img{
     width: 20px;
 }
 
@@ -281,4 +278,8 @@ footer{
 
 .label{
     font-size: 12px;
+}
+
+.skills img{
+    width: 30px;
 }
