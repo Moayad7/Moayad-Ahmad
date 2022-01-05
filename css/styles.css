@@ -12,13 +12,12 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 body::before{
     content: '';
     display: block;
-    height: 73px;
+    height: 80px;
 }
 
 a{
@@ -281,4 +280,32 @@ footer{
 
 .skills img{
     width: 30px;
+}
+
+.qoutes{
+    background-color: #ffff0066;
+}
+
+.qoutes-icon{
+    font-size: 70px;
+}
+
+@media screen and (min-width:991px) {
+    .qoutes-icon i{
+        float: right;
+    }
+}
+
+.qoutes-icon i{
+    color: var(--pink);
+
+}
+.qoutes-text{
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+.contact-content{
+    height: 50vh;
 }
