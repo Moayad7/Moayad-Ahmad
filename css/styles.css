@@ -12,6 +12,7 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #27255F10;
 }
 
 body::before{
